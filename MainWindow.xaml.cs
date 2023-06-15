@@ -15,9 +15,9 @@ namespace AudioCaptureFromFile
 {
     public partial class MainWindow : Window
     {
-        private const string API_KEY = "47464991";
-        private const string SESSION_ID = "2_MX40NzQ2NDk5MX5-MTY4NjgzMzk5ODMxOH5LUlc3c1h6VkNXemN6Z2RaeVNGUkZNMmV-fn4";
-        private const string TOKEN = "T1==cGFydG5lcl9pZD00NzQ2NDk5MSZzaWc9MTRmZDcwOGVhNzJhODE1ODhhMmQ1NTQwMTQwMjJlN2I3NTNkMzUyODpzZXNzaW9uX2lkPTJfTVg0ME56UTJORGs1TVg1LU1UWTROamd6TXprNU9ETXhPSDVMVWxjM2MxaDZWa05YZW1ONloyUmFlVk5HVWtaTk1tVi1mbjQmY3JlYXRlX3RpbWU9MTY4NjgzNDAyMyZub25jZT0wLjE2NzMwOTQ3MjUxNTc5OTUzJnJvbGU9cHVibGlzaGVyJmV4cGlyZV90aW1lPTE2ODY5MjA0MjMmaW5pdGlhbF9sYXlvdXRfY2xhc3NfbGlzdD0=";
+        private const string API_KEY = "";
+        private const string SESSION_ID = "";
+        private const string TOKEN = "";
         Context context = new Context(new WPFDispatcher());
         
         private Session Session;
