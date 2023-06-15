@@ -1,9 +1,9 @@
-BasicVideoChat
+AudioFileReader
 ==============
 
-BasicVideoChat is a simple application meant to get a new developer started using the
-OpenTok Windows SDK. For a full description, see the [Basic tutorial at the OpenTok developer
-center](https://tokbox.com/developer/tutorials/windows/basic-video-chat/).
+AudioFileReader is a simple application that shows how to load audio files and resample to them to the proper audio format before publishing them.
 
-*Important:* To use this application, follow the instructions in the
-[Quick Start](../README.md#quick-start) section of the main README file for this repository.
+All relevant code is in AudioFileCapture.cs
+
+The function LoadFileToBeSent uses the Naudio Library to load an audio file. We then load file inside a queue.
+The function StartAudioCapturer triggers the process of dequeueing the audio queue and finally calling the SendToAudioBus function to publish the audio
